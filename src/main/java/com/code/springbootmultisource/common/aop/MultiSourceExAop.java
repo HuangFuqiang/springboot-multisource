@@ -17,6 +17,9 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 
+/**
+ * 多数据源切换aop
+ */
 @Aspect
 @Component
 @ConditionalOnProperty(prefix = "code", name = "muti-datasource-open", havingValue = "true")
