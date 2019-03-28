@@ -22,4 +22,5 @@ public class UserService {
     public User findById1(Integer id) {
         return userMapper.selectById(id);
     }
+
 }
